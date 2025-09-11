@@ -1,7 +1,7 @@
 ---
 name: Package Submission
-about: Submit a new package for the Snipsidian community
-title: '[PACKAGE] Your Package Name'
+about: Submit a new snippet package to the Snipsy community
+title: '[Package Submission] '
 labels: ['package-submission', 'pending-review']
 assignees: ''
 ---
@@ -10,64 +10,58 @@ assignees: ''
 
 **Package Name:** 
 **Author:** 
-**Version:** 
-**License:** 
+**Category:** 
+**Description:** 
 
-## Description
+## Package YAML
 
-<!-- Provide a clear and concise description of what your package does -->
+```yaml
+# Paste your package YAML here
+name: "Your Package Name"
+version: "1.0.0"
+author: "your-username"
+description: "Brief description of what this package does"
+category: "productivity"  # See categories below
+tags: ["tag1", "tag2", "tag3"]
+license: "MIT"
+homepage: "https://github.com/username/package-name"
 
-## Features
-
-<!-- List the main features of your package -->
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-
-## Use Cases
-
-<!-- Describe when and why someone would use this package -->
-
-## Installation Instructions
-
-<!-- How to install/use this package -->
-
-## Dependencies
-
-<!-- List any dependencies your package requires -->
-
-## Examples
-
-<!-- Provide code examples showing how to use your package -->
-
-```javascript
-// Example usage
+snippets:
+  - trigger: ":example"
+    replace: "This is an example replacement"
+    description: "Optional description of what this snippet does"
+    keywords: ["keyword1", "keyword2"]
 ```
 
-## Testing
+## Review Checklist
 
-<!-- Describe how you've tested your package -->
-- [ ] Tested on different platforms
-- [ ] Tested with different Snipsidian versions
-- [ ] Manual testing completed
+- [ ] Package follows naming conventions
+- [ ] All snippets work correctly
+- [ ] YAML is valid and well-formatted
+- [ ] Content is appropriate and useful
+- [ ] Package fits the chosen category
+- [ ] No duplicate triggers with existing packages
+- [ ] Package has been tested thoroughly
 
-## Documentation
+## Package Categories
 
-<!-- Link to or provide documentation -->
-- [ ] README included
-- [ ] API documentation provided
-- [ ] Examples provided
+Choose the most appropriate category:
 
-## Checklist
+| Category | Description | Examples |
+|----------|-------------|----------|
+| **markdown** | Markdown formatting and structure | Headers, lists, tables, links |
+| **programming** | Code snippets and development | Functions, classes, imports |
+| **academic** | Academic writing and research | Citations, references, formulas |
+| **business** | Business and professional use | Email templates, reports, presentations |
+| **creative** | Creative writing and content | Story templates, character sheets |
+| **productivity** | General productivity tools | Todo lists, reminders, shortcuts |
+| **language** | Language learning and translation | Phrases, vocabulary, grammar |
+| **other** | Everything else | Custom workflows, personal use |
 
-Before submitting, please ensure:
+## Additional Information
 
-- [ ] Package follows Snipsidian conventions
-- [ ] Code is well-documented
-- [ ] No sensitive information is included
-- [ ] License is appropriate
-- [ ] Package is ready for community use
+[Any additional information about your package, usage examples, or special notes]
 
-## Additional Notes
+---
 
-<!-- Any additional information that might be helpful for reviewers -->
+**Note:** This package will be reviewed by the community moderators. Please ensure your package follows the [Package Creation Guidelines](https://github.com/Dimagious/snipsidian/wiki/Package-Creation).

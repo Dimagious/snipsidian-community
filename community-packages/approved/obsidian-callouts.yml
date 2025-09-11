@@ -1,0 +1,61 @@
+name: "Obsidian Callouts"
+version: "1.0.0"
+author: "snipsidian-community"
+description: "Quick shortcuts for creating Obsidian callout blocks with popular callout types"
+category: "obsidian"
+tags: ["obsidian", "callouts", "blocks", "formatting", "notes"]
+
+snippets:
+  # Basic callouts
+  ">note": "> [!note]\n> \n> "
+  ">info": "> [!info]\n> \n> "
+  ">tip": "> [!tip]\n> \n> "
+  ">success": "> [!success]\n> \n> "
+  ">warning": "> [!warning]\n> \n> "
+  ">error": "> [!error]\n> \n> "
+  ">danger": "> [!danger]\n> \n> "
+  ">bug": "> [!bug]\n> \n> "
+  ">example": "> [!example]\n> \n> "
+  ">quote": "> [!quote]\n> \n> "
+
+  # Advanced callouts
+  ">abstract": "> [!abstract]\n> \n> "
+  ">summary": "> [!summary]\n> \n> "
+  ">tldr": "> [!tldr]\n> \n> "
+  ">todo": "> [!todo]\n> \n> "
+  ">check": "> [!check]\n> \n> "
+  ">done": "> [!done]\n> \n> "
+  ">question": "> [!question]\n> \n> "
+  ">help": "> [!help]\n> \n> "
+  ">faq": "> [!faq]\n> \n> "
+  ">important": "> [!important]\n> \n> "
+
+  # Specialized callouts
+  ">math": "> [!math]\n> \n> "
+  ">code": "> [!code]\n> \n> "
+  ">definition": "> [!definition]\n> \n> "
+  ">theorem": "> [!theorem]\n> \n> "
+  ">proof": "> [!proof]\n> \n> "
+  ">lemma": "> [!lemma]\n> \n> "
+  ">cite": "> [!cite]\n> \n> "
+  ">ref": "> [!ref]\n> \n> "
+
+  # Custom callouts with icons
+  ">lightbulb": "> [!lightbulb]\n> \n> "
+  ">rocket": "> [!rocket]\n> \n> "
+  ">heart": "> [!heart]\n> \n> "
+  ">star": "> [!star]\n> \n> "
+  ">bookmark": "> [!bookmark]\n> \n> "
+  ">calendar": "> [!calendar]\n> \n> "
+  ">clock": "> [!clock]\n> \n> "
+  ">location": "> [!location]\n> \n> "
+  ">phone": "> [!phone]\n> \n> "
+  ">email": "> [!email]\n> \n> "
+
+  # Collapsible callouts
+  ">fold-note": "> [!note]- Note\n> \n> "
+  ">fold-info": "> [!info]- Information\n> \n> "
+  ">fold-tip": "> [!tip]- Tip\n> \n> "
+  ">fold-warning": "> [!warning]- Warning\n> \n> "
+  ">fold-todo": "> [!todo]- Todo\n> \n> "
+  ">fold-question": "> [!question]- Question\n> \n> "

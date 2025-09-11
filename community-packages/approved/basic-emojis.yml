@@ -1,0 +1,52 @@
+name: "Basic Emojis"
+version: "1.0.0"
+author: "snipsidian-community"
+description: "Essential emoji shortcuts for quick access to commonly used emojis"
+category: "emojis"
+tags: ["emojis", "basic", "shortcuts", "popular"]
+
+snippets:
+  # Basic emotions
+  ":smile:": "😊"
+  ":laugh:": "😂"
+  ":love:": "❤️"
+  ":heart:": "❤️"
+  ":thumbsup:": "👍"
+  ":thumbsdown:": "👎"
+  ":ok:": "👌"
+  ":fire:": "🔥"
+  ":star:": "⭐"
+  ":check:": "✅"
+  ":cross:": "❌"
+  ":warning:": "⚠️"
+  ":info:": "ℹ️"
+  ":question:": "❓"
+  ":exclamation:": "❗"
+
+  # Time and dates
+  ":clock:": "🕐"
+  ":calendar:": "📅"
+  ":today:": "📅"
+  ":tomorrow:": "📅"
+  ":yesterday:": "📅"
+
+  # Work and productivity
+  ":work:": "💼"
+  ":money:": "💰"
+  ":email:": "📧"
+  ":phone:": "📞"
+  ":computer:": "💻"
+  ":book:": "📚"
+  ":pen:": "✏️"
+  ":pencil:": "✏️"
+  ":paperclip:": "📎"
+
+  # Weather and nature
+  ":sun:": "☀️"
+  ":moon:": "🌙"
+  ":rain:": "🌧️"
+  ":snow:": "❄️"
+  ":cloud:": "☁️"
+  ":tree:": "🌳"
+  ":flower:": "🌸"
+  ":leaf:": "🍃"
