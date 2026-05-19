@@ -1,0 +1,88 @@
+name: "Meetings"
+version: "1.0.0"
+author: "snipsidian-community"
+license: "MIT"
+description: "Meeting note skeletons, action item tracking, 1:1 templates. Stop reinventing the format every standup."
+category: "work"
+tags: ["meetings", "1on1", "standup", "agenda"]
+
+snippets:
+  - trigger: "mtg"
+    replace: |-
+      # Meeting — $date
+
+      **Attendees:** $1
+      **Topic:** $|
+
+      ## Agenda
+      -
+
+      ## Notes
+
+
+      ## Action items
+      - [ ]
+
+      ## Decisions
+
+
+      ## Follow-ups
+      -
+
+  - trigger: "agnd"
+    replace: |-
+      ## Agenda
+
+      1. $|
+      2.
+      3.
+
+  - trigger: "aitem"
+    replace: "- [ ] **$1** · @owner · due $2"
+  - trigger: "decn"
+    replace: "**Decision:** $| · made $date · owner: $1"
+  - trigger: "follow"
+    replace: "- [ ] Follow up on $| · by $date"
+
+  - trigger: "stnd"
+    replace: |-
+      ## Standup — $date
+
+      **Yesterday:** $|
+      **Today:**
+      **Blockers:**
+
+  - trigger: "onone"
+    replace: |-
+      # 1:1 with $1 — $date
+
+      ## Wins since last 1:1
+
+
+      ## Challenges
+
+
+      ## Topics from $1
+      - $|
+
+      ## Topics from me
+      -
+
+      ## Action items
+      - [ ]
+
+  - trigger: "retro"
+    replace: |-
+      # Retrospective — $1
+
+      ## What went well
+      - $|
+
+      ## What didn't go well
+      -
+
+      ## What to try next
+      -
+
+      ## Action items
+      - [ ]
