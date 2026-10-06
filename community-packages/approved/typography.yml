@@ -11,6 +11,8 @@ tags: ["symbols", "typography", "arrows", "math"]
 #   ^2  footnotes: [^2] would become [²]
 #   --> closing an HTML comment: <!-- note -->
 # Not possible with word-bound triggers: != ... (c) 1/2
+# Known trade-off: "--" also fires in "<!-- " (the "!" is a separator).
+# Obsidian comments (%% ... %%) are unaffected.
 
 snippets:
   # Arrows
