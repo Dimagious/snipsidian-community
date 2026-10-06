@@ -1,5 +1,5 @@
 name: "Code Review"
-version: "1.0.0"
+version: "1.1.0"
 author: "snipsidian-community"
 license: "MIT"
 description: "Conventional Comments-style prefixes for code reviews. Faster, kinder, more specific feedback."
@@ -8,9 +8,9 @@ tags: ["code-review", "conventional-comments", "team"]
 
 snippets:
   # Conventional Comments labels (https://conventionalcomments.org)
-  - trigger: "praise"
+  - trigger: "crpraise"
     replace: "**praise:** $|"
-  - trigger: "nit"
+  - trigger: "crnit"
     replace: "**nit:** $|"
   - trigger: "sugg"
     replace: "**suggestion:** $|"
@@ -22,9 +22,9 @@ snippets:
     replace: "**thought:** $|"
   - trigger: "crtodo"
     replace: "**todo:** $|"
-  - trigger: "chore"
+  - trigger: "crchore"
     replace: "**chore:** $|"
-  - trigger: "polly"
+  - trigger: "crpolicy"
     replace: "**policy:** $|"
   - trigger: "crnote"
     replace: "**note:** $|"
@@ -46,7 +46,7 @@ snippets:
     replace: "Request for comments: $|"
 
   # Common patterns
-  - trigger: "rationale"
+  - trigger: "crwhy"
     replace: "**Rationale:** $|"
   - trigger: "altopt"
     replace: "**Alternative:** $|"

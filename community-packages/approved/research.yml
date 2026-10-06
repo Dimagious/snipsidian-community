@@ -1,5 +1,5 @@
 name: "Research & Academic"
-version: "1.0.0"
+version: "1.1.0"
 author: "snipsidian-community"
 license: "MIT"
 description: "Literature notes, claim-evidence templates, paper summaries, citation scaffolds. Adapted from Zettelkasten and academic writing practice."
@@ -32,13 +32,13 @@ snippets:
       ## Citation
 
 
-  - trigger: "claim"
+  - trigger: "clm"
     replace: "**Claim:** $|\n\n**Evidence:**\n- "
   - trigger: "evi"
     replace: "**Evidence:** $|"
-  - trigger: "counter"
+  - trigger: "cntr"
     replace: "**Counter-evidence:** $|"
-  - trigger: "assume"
+  - trigger: "asmp"
     replace: "**Assumption:** $|"
 
   - trigger: "perma"
@@ -53,7 +53,7 @@ snippets:
       _Date: $date_
       _Connected to:_
 
-  - trigger: "fleet"
+  - trigger: "fltn"
     replace: "_Fleeting note · $date · $time_\n\n$|"
 
   - trigger: "citeapa"
@@ -65,9 +65,9 @@ snippets:
 
   - trigger: "abstr"
     replace: "## Abstract\n\n$|\n\n## Why I'm reading this\n\n"
-  - trigger: "method"
+  - trigger: "mthd"
     replace: "**Method:** $|"
-  - trigger: "finding"
+  - trigger: "fndg"
     replace: "**Finding:** $|"
-  - trigger: "lim"
+  - trigger: "lmtn"
     replace: "**Limitations:** $|"

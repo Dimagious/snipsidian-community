@@ -1,5 +1,5 @@
 name: "Date & Time Stamps"
-version: "1.0.0"
+version: "1.1.0"
 author: "snipsidian-community"
 license: "MIT"
 description: "Insert today's date, current time, ISO timestamps, week numbers. Uses Snipsy's $date and $time variables — substituted at typing time."
@@ -31,9 +31,9 @@ snippets:
     replace: "[[$date]] $|"
 
   # Time-of-day labels
-  - trigger: "morn"
+  - trigger: "tmorn"
     replace: "**Morning · $date**\n\n$|"
-  - trigger: "aft"
+  - trigger: "taftn"
     replace: "**Afternoon · $date**\n\n$|"
-  - trigger: "evn"
+  - trigger: "tevn"
     replace: "**Evening · $date**\n\n$|"

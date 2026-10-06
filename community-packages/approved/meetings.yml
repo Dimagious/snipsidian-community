@@ -1,5 +1,5 @@
 name: "Meetings"
-version: "1.0.0"
+version: "1.1.0"
 author: "snipsidian-community"
 license: "MIT"
 description: "Meeting note skeletons, action item tracking, 1:1 templates. Stop reinventing the format every standup."
@@ -41,7 +41,7 @@ snippets:
     replace: "- [ ] **$1** · @owner · due $2"
   - trigger: "decn"
     replace: "**Decision:** $| · made $date · owner: $1"
-  - trigger: "follow"
+  - trigger: "fllw"
     replace: "- [ ] Follow up on $| · by $date"
 
   - trigger: "stnd"
@@ -71,7 +71,7 @@ snippets:
       ## Action items
       - [ ]
 
-  - trigger: "retro"
+  - trigger: "rtro"
     replace: |-
       # Retrospective — $1
 
