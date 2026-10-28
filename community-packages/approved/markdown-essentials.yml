@@ -1,5 +1,5 @@
 name: "Markdown Essentials"
-version: "1.1.0"
+version: "1.2.0"
 author: "snipsidian-community"
 license: "MIT"
 description: "The shortcuts you use every minute writing markdown — tables, links, callouts, code fences. Triggers are short and don't collide with English words."
@@ -41,9 +41,9 @@ snippets:
 
   # Links / images
   - trigger: "lnk"
-    replace: "[$1](url)"
+    replace: "[$|](url)"
   - trigger: "mdimg"
-    replace: "![$1](url)"
+    replace: "![$|](url)"
   - trigger: "wlnk"
     replace: "[[$|]]"
   - trigger: "emb"
@@ -73,6 +73,6 @@ snippets:
   - trigger: "qte"
     replace: "> $|"
   - trigger: "fnote"
-    replace: "[^$1]"
+    replace: "[^$|]"
   - trigger: "dtls"
-    replace: "<details>\n<summary>$1</summary>\n\n$|\n\n</details>"
+    replace: "<details>\n<summary>$|</summary>\n\n\n\n</details>"

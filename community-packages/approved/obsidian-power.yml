@@ -1,5 +1,5 @@
 name: "Obsidian Power-User"
-version: "1.0.0"
+version: "1.1.0"
 author: "snipsidian-community"
 license: "MIT"
 description: "Dataview blocks, frontmatter scaffolds, query templates — everything that takes Obsidian beyond plain markdown."
@@ -9,7 +9,7 @@ tags: ["obsidian", "dataview", "frontmatter", "advanced"]
 snippets:
   # Frontmatter
   - trigger: "fmm"
-    replace: "---\ntitle: $1\ndate: $date\ntags: []\nstatus: $|\n---\n"
+    replace: "---\ntitle: $|\ndate: $date\ntags: []\nstatus: \n---\n"
   - trigger: "fmtags"
     replace: "tags:\n  - $|"
   - trigger: "fmaliases"
@@ -21,19 +21,19 @@ snippets:
   - trigger: "dvjs"
     replace: "```dataviewjs\n$|\n```"
   - trigger: "dvtable"
-    replace: "```dataview\ntable $1 from \"$2\"\nwhere $|\n```"
+    replace: "```dataview\ntable $| from \"\"\nwhere \n```"
   - trigger: "dvlist"
-    replace: "```dataview\nlist from #$1\nwhere $|\n```"
+    replace: "```dataview\nlist from #$|\nwhere \n```"
   - trigger: "dvtask"
-    replace: "```dataview\ntask from \"$1\"\nwhere !completed\n```"
+    replace: "```dataview\ntask from \"$|\"\nwhere !completed\n```"
 
   # Embeds / transclusion
   - trigger: "embb"
     replace: "![[$|]]"
   - trigger: "embsec"
-    replace: "![[$1#$|]]"
+    replace: "![[$|#]]"
   - trigger: "embblk"
-    replace: "![[$1^$|]]"
+    replace: "![[$|^]]"
   - trigger: "blkref"
     replace: "^$|"
 
@@ -41,9 +41,9 @@ snippets:
   - trigger: "wlnk"
     replace: "[[$|]]"
   - trigger: "wlnkalias"
-    replace: "[[$1|$|]]"
+    replace: "[[$||]]"
   - trigger: "wlnksec"
-    replace: "[[$1#$|]]"
+    replace: "[[$|#]]"
   - trigger: "tg"
     replace: "#$|"
 
