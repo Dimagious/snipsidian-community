@@ -1,5 +1,5 @@
 name: "GTD & Productivity"
-version: "1.1.0"
+version: "1.2.0"
 author: "snipsidian-community"
 license: "MIT"
 description: "Getting Things Done templates: projects, next-actions, waiting-fors, context tags. The system fits in your vault."
@@ -9,9 +9,9 @@ tags: ["gtd", "productivity", "tasks", "projects"]
 snippets:
   - trigger: "proj"
     replace: |-
-      # Project: $1
+      # Project: $|
 
-      **Outcome:** $|
+      **Outcome:** 
       **Status:** active
       **Started:** $date
 
@@ -25,7 +25,7 @@ snippets:
   - trigger: "nxt"
     replace: "- [ ] $| #next"
   - trigger: "wtfor"
-    replace: "- [ ] Waiting for $1 — $|  #waiting · since $date"
+    replace: "- [ ] Waiting for $| — #waiting · since $date"
   - trigger: "smday"
     replace: "- [ ] $| #someday"
   - trigger: "inbx"

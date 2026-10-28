@@ -1,5 +1,5 @@
 name: "Daily Journal"
-version: "1.1.0"
+version: "1.2.0"
 author: "snipsidian-community"
 license: "MIT"
 description: "Skeletons for daily notes, weekly reviews, gratitude prompts, mood logs. Drops a full structure ready to fill in."
@@ -29,9 +29,9 @@ snippets:
     replace: |-
       ## Morning pages
 
-      Mood: $1
-      Energy (1-10): $2
-      One thing I'm looking forward to: $|
+      Mood: $|
+      Energy (1-10): 
+      One thing I'm looking forward to: 
 
   - trigger: "jevn"
     replace: |-
@@ -61,10 +61,10 @@ snippets:
       -
 
   - trigger: "moodlog"
-    replace: "Mood: $1/5 · Energy: $2/5 · Sleep: $3h · Notes: $|"
+    replace: "Mood (1-5): $| · Energy (1-5):  · Sleep (h):  · Notes: "
   - trigger: "grtd"
     replace: "## Today I'm grateful for\n\n1. $|\n2. \n3. "
   - trigger: "hbt"
-    replace: "- [ ] $1 — $date"
+    replace: "- [ ] $| — $date"
   - trigger: "mit"
     replace: "## Most important task\n\n**$|**\n\nWhy it matters: \nFirst step: "
