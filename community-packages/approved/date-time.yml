@@ -1,5 +1,5 @@
 name: "Date & Time Stamps"
-version: "1.2.0"
+version: "1.3.0"
 author: "snipsidian-community"
 license: "MIT"
 description: "Insert today's date, current time, ISO timestamps, week numbers. Uses Snipsy's $date and $time variables — substituted at typing time."
@@ -29,6 +29,11 @@ snippets:
   # Markdown date as link (for daily-notes flow)
   - trigger: "tdwl"
     replace: "[[$date]] $|"
+  # Week and month note links (Periodic Notes default names); need Snipsy 1.7.0+
+  - trigger: "tweek"
+    replace: "[[{{date:GGGG-[W]WW}}]]"
+  - trigger: "tmonth"
+    replace: "[[{{date:YYYY-MM}}]]"
 
   # Time-of-day labels
   - trigger: "tmorn"
